@@ -21,5 +21,5 @@ This is simple website.
 Aplication can be started using link www.anher.pl
 
 ## Status
-Project is: finished
+Project is: finished.
 
