@@ -1,0 +1,365 @@
+body
+{
+	
+	background-color: #FFFFFF ;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	width: 100%;
+	
+marign:0;
+	
+	
+}
+
+
+
+
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+
+div#slider { overflow: hidden; margin-left:px; width:470px; float:right;}
+div#slider figure img { width: 20%; float: left;   }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin:0px ;
+  left: 0;
+  
+  text-align: center;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+	
+}
+
+.rectangle
+
+{
+	
+	width: 960px;
+	margin: 20px;
+	text-align: center;
+	
+}
+
+.square
+
+{
+	
+	width: 50%;
+	float: left;
+	
+}
+
+#logo
+
+{
+	
+	float:left;
+	
+	font-size: 70px;
+	text-align: left;
+	width:300px;
+}
+
+/*
+#zegar
+{
+	
+	float:right;
+	
+	text-align: right;
+	width: 600px;
+	
+	
+	
+
+	
+}*/
+
+.tile1
+{
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #3095d3;
+	float:left;
+	text-align: center;
+	
+}
+
+.tile1:hover
+{
+	background-color: #2084c2;
+	
+}
+
+.tile2
+{
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #666666;
+	float:left;
+	text-align: center;
+}
+
+.tile2:hover
+{
+	background-color: #222222;
+	
+}
+.tile3
+/*<iframe width="420px" height="244px" src="https://www.youtube.com/embed/jvrzvYH5xxM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>*/
+{
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #93c748;
+	float:left;
+	text-align: center;
+}
+
+.tile3:hover
+{
+	background-color: #82b637;
+	
+}
+.tile4
+{
+	margin: 10px;
+	width: 420px;
+	height: 82px;
+	background-color: #ee5a32;
+text-align: center;
+font-size: 26px;
+padding: 30px;
+line-height: 150%;
+	
+}
+
+.tile5
+{
+	margin: 10px;
+	width: 420px;
+	height: 244px;
+	background-color: #666666;
+padding:30px;
+	text-align: justify;
+}
+
+.yt
+{
+	margin: 10px;
+	width: 146px;
+	height: 142px;
+	background-color: #d94348;
+	float:left;
+	
+}
+
+.yt:hover
+{
+	background-color: #c83237;
+	
+}
+.fb
+{
+	margin: 10px;
+	width: 146px;
+	height: 142px;
+	background-color: #4668b3;
+	float:left;
+	
+}
+.fb:hover
+{
+	background-color: #3557a2;
+	
+}
+.g
+{
+	margin: 10px;
+	width: 146px;
+	height: 142px;
+	background-color: #00acee;
+	float:left;
+	
+}
+.g:hover
+{
+	background-color: #c84222;
+	
+}
+/*.sc
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #d95333;
+	float:left;
+	
+}
+.sc:hover
+{
+	background-color: #c84222;
+	
+}*/
+
+a.tilelink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+		width: 230px;
+	height: 142px;
+}
+
+a.sociallink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+		width: 105px;
+	height: 142px;
+}
+
+a.tilelinkhtml5
+{
+	color: #ffffff;
+	text-decoration: none;
+	
+	
+}
+
+#progressBar {
+   border:1px solid black;
+   width:200px;
+   height:20px;
+}
+
+#progress {
+   background-color: red;
+   height: 20px;
+   display: inline-block;
+}
+
+
+
+
+
+/*
+TABELA DO WIDEO
+
+
+<table> <center> Wiecej wideo do obejrzenia: </center>
+	<tr >
+	<td align="left"  > </td>
+	</tr>
+	<tr>
+	<td 	width= "120px" align="center"> <a href="Wideo1.html" data-title="Helios" data-description="źródło: vidsplay.com">Helios</a></td>
+
+
+	<td 	width= "120px" align="center">aaa </td> <td 
+
+	width= "120px" align="center">aaa </td> <td 
+
+	width= "120px" align="center">aaa </td>
+	</tr>
+	<tr>
+	<td 	width= "120px" align="center"> aaa</td> 
+	
+	
+	<td width= "120px" align="center">aaa </td>
+	
+	
+	<td 	width= "120px" align="center">aaa </td>
+
+
+	<td 	width= "120px" align="center">aaa </td>
+	</tr>
+	<tr>
+	<td 	width= "120px" align="center"> aaa</td>
+
+
+	<td 	width= "120px" align="center">aaa </td> 
+	
+	
+	<td 	width= "120px" align="center">aaa </td> 
+	
+	
+	<td 	width= "120px" align="center">aaa </td>
+	</tr>
+	<tr>
+	<td 	width= "120px" align="center"> aaa</td>
+
+
+	<td 	width= "120px" align="center">aaa </td> 
+	
+	
+	<td 	width= "120px" align="center">aaa </td>
+
+
+	<td 	width= "120px" align="center">aaa </td>
+	</tr>
+	</table>
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
