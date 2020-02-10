@@ -10,7 +10,7 @@
 
 ## General info
 
-This is simple website. .
+This is simple website.
 
 ## Technologies
 
